@@ -10,7 +10,7 @@ SAGE is a novel optimizer designed to optimize Large Language Models (LLMs) with
 
 - **`src/optimizers/`**: Contains the core optimizer implementations:
   - `sage_universal.py`: The main SAGE optimizer (supporting hybrid and pure modes).
-  - `sage_universal_opt.py`: An optimized implementation (`UniSAGEOptimized`) using `torch._foreach` operations for minimal CPU overhead. *(Note: This specific implementation has not yet been tested at scale for performance.)*
+  - `sage_universal_opt.py`: An optimized implementation (`UniSAGEOptimized`) using `torch._foreach` operations for minimal CPU overhead.
 - **`src/callbacks.py`**: Custom Trainer callbacks for monitoring memory usage, perplexity, and directional sharpness.
 - **`scripts/`**: Utilities for data downloading and experiment orchestration.
 - **`train.py`**: The main training entry point using Hugging Face `Trainer`.
@@ -76,3 +76,16 @@ This repository supports several optimizers for benchmarking:
 - **Lion**: Evolved Sign Momentum.
 - **APOLLO**: Approximate Gradient Scaling.
 - **AdamW**: Standard baseline.
+
+
+## Citation
+
+If you find this code or method useful, please cite our paper:
+
+```bibtex
+@article{sage2026,
+  title={SAGE: Sign-Adaptive Gradient for Memory-Efficient LLM Optimization},
+  author={Your Name},
+  year={2026}
+}
+```
