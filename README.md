@@ -7,6 +7,7 @@
 > **Official Implementation** for the paper: *"SAGE: Sign-Adaptive Gradient for Memory-Efficient LLM Optimization"*
 
 ## 📢 News
+- **[Jun 25 2026]** [SAGE: Sign-Adaptive Gradient for Memory-Efficient LLM Optimization](https://aclanthology.org/2026.findings-acl.923/) (Lee & Kim, Findings 2026)
 - **[Apr 6 2026]** SAGE has been accepted to **ACL Findings 2026**! 🎉
 - **[Apr 9 2026]** Initial release of the SAGE optimizer and training scripts. Preprint is available on [arXiv](https://arxiv.org/abs/2604.07663).
 
