@@ -89,13 +89,15 @@ This repository supports several optimizers for comprehensive benchmarking:
 If you find our work or this code useful for your research, please cite our paper:
 
 ```bibtex
-@misc{lee2026sage,
-      title={{SAGE}: Sign-Adaptive Gradient for Memory-Efficient LLM Optimization}, 
-      author={Wooin Lee and Hyun-tae Kim},
-      year={2026},
-      eprint={2604.07663},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2604.07663}
+@inproceedings{lee-kim-2026-sage,
+    title="{SAGE}: Sign-Adaptive Gradient for Memory-Efficient {LLM} Optimization",
+    author="Lee, Wooin  and Kim, Hyun-Tae",
+    editor="Liakata, Maria and Moreira, Viviane P.  and Zhang, Jiajun and Jurgens, David",
+    booktitle="Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    year="2026",
+    publisher="Association for Computational Linguistics",
+    url="https://aclanthology.org/2026.findings-acl.923/",
+    pages="18525--18537",
+    ISBN="979-8-89176-395-1",
 }
 ```
